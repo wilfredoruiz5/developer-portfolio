@@ -4,34 +4,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wil | Hello </title>
+    <title>Wil | Full Stack Software Developer</title>
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
             margin: 0;
+            font-family: Inter, Arial, sans-serif;
+            background: #0b1120;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 70px 24px;
+        }
+
+        .tag {
+            color: #38bdf8;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: clamp(38px, 7vw, 64px);
+            line-height: 1.1;
+            margin: 18px 0;
+            color: white;
+        }
+
+        h1 span {
+            color: #38bdf8;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 18px;
+            max-width: 600px;
         }
 
         .card {
-            text-align: center;
-            padding: 40px;
-            border-radius: 16px;
-            background: #1e293b;
+            background: #151f32;
+            border: 1px solid #263449;
+            border-radius: 14px;
+            padding: 24px;
+            margin-top: 28px;
         }
 
-        h1 { color: #38bdf8; }
+        h2 {
+            font-size: 20px;
+            color: white;
+            margin-top: 0;
+        }
+
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tech {
+            background: #1e3349;
+            color: #7dd3fc;
+            padding: 7px 13px;
+            border-radius: 7px;
+            font-size: 13px;
+        }
+
+        details {
+            border-top: 1px solid #334155;
+            padding: 18px 0;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #e2e8f0;
+        }
+
+        summary:hover {
+            color: #38bdf8;
+        }
+
+        details p {
+            color: #94a3b8;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 24px;
+            padding: 12px 20px;
+            background: #0284c7;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #0369a1;
+        }
+
+        footer {
+            margin-top: 65px;
+            color: #64748b;
+            font-size: 13px;
+        }
     </style>
 </head>
+
 <body>
-    <div class="card">
-        <h1>Hello 👋</h1>
-        <h2>I'm Wil, Software Developer</h2>
-        <p>Building, learning and growing every day.</p>
-    </div>
+    <main class="container">
+
+        <div class="tag">FULL STACK SOFTWARE DEVELOPER</div>
+
+        <h1>Hi, I'm <span>Wil.</span></h1>
+
+        <p class="subtitle">
+            Software developer focused on building modern,
+            scalable and user-friendly web applications.
+            Passionate about technology and continuous learning.
+        </p>
+
+        <a class="button" href="https://github.com/"
+           target="_blank">
+            Explore my GitHub →
+        </a>
+
+        <section class="card">
+            <h2>⚡ Tech Stack</h2>
+
+            <div class="technologies">
+                <span class="tech">Angular</span>
+                <span class="tech">TypeScript</span>
+                <span class="tech">JavaScript</span>
+                <span class="tech">Node.js</span>
+                <span class="tech">C#</span>
+                <span class="tech">.NET</span>
+                <span class="tech">SQL</span>
+                <span class="tech">NgRx</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>About me</h2>
+
+            <details>
+                <summary>Professional experience</summary>
+                <p>
+                    Frontend Developer at Dextools (2024–2026).
+                    Worked with Angular, TypeScript, state management,
+                    reusable components and frontend architecture.
+                </p>
+            </details>
+
+            <details>
+                <summary>Technical skills</summary>
+                <p>
+                    Experienced with Angular, Signals, NgRx,
+                    TypeScript and modern frontend development.
+                    Currently expanding my backend knowledge
+                    with Node.js and .NET.
+                </p>
+            </details>
+
+            <details>
+                <summary>Currently learning</summary>
+                <p>
+                    Full-stack development, software architecture,
+                    backend development and testing best practices.
+                </p>
+            </details>
+        </section>
+
+        <section class="card">
+            <h2>🚀 My first project</h2>
+            <p>
+                A simple web application created as the starting
+                point of my developer portfolio.
+            </p>
+            <p class="tech">Hello · HTML · CSS</p>
+        </section>
+
+        <footer>
+            © 2026 Wil · Built with curiosity and code.
+        </footer>
+
+    </main>
 </body>
 </html>
