@@ -1,0 +1,64 @@
+
+<main class="container">
+  <header class="hero">
+    <span class="eyebrow">FULL STACK SOFTWARE DEVELOPER</span>
+
+    <h1>Hello, I'm <span>Wil.</span></h1>
+
+    <p>
+      Building modern web applications with Angular,
+      TypeScript and backend technologies.
+    </p>
+  </header>
+
+  <section class="card">
+    <h2>Technology Stack</h2>
+
+    <div class="technologies">
+      @for (tech of technologies; track tech) {
+        <span class="tech">{{ tech }}</span>
+      }
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Angular Signals Demo</h2>
+
+    <p class="description">
+      This counter uses Angular Signals to manage reactive state.
+    </p>
+
+    <div class="counter">{{ counter() }}</div>
+
+    <div class="actions">
+      <button (click)="decrement()">−</button>
+      <button (click)="increment()">+</button>
+      <button class="reset" (click)="reset()">Reset</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>About me</h2>
+
+    <details>
+      <summary>Professional experience</summary>
+      <p>
+        Frontend Developer at Dextools (2024–2026),
+        working with Angular, TypeScript and modern
+        frontend architecture.
+      </p>
+    </details>
+
+    <details>
+      <summary>Currently learning</summary>
+      <p>
+        Full-stack development, .NET, software architecture
+        and testing best practices.
+      </p>
+    </details>
+  </section>
+
+  <footer>
+    Built with Angular 22 and TypeScript.
+  </footer>
+</main>
