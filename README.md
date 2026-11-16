@@ -32,4 +32,4 @@ I'm always interested in learning, solving problems and building useful software
 
 Check out my first deployed web project:
 
-[Hello - Live Demo](https://wilfredoruiz5.github.io/developer-portfolio/)
+[Hello - Live Demo](https://wilfredoruiz5.github.io/developer-portfolio/dashboard/index.html)
