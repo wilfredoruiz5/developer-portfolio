@@ -27,3 +27,9 @@ Exploring software architecture and best practices.
 📫 About me
 
 I'm always interested in learning, solving problems and building useful software.
+
+### 🌐 Live Demo
+
+Check out my first deployed web project:
+
+[Hello - Live Demo](https://wilfredoruiz5.github.io/developer-portfolio/)
