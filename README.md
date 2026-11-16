@@ -1,35 +1,46 @@
-Hi, I'm Wil! 👋
+# Wilfredo Ruiz | Software Developer
 
-Full Stack Software Developer
+Software Developer focused on building modern, maintainable web applications. Experienced in frontend development with Angular and TypeScript, currently expanding into full-stack development with Node.js and .NET.
 
-I'm a software developer passionate about building modern, scalable and user-friendly applications.
+## Live Projects
 
-I have professional experience working with Angular, TypeScript and modern frontend architectures, and I'm currently expanding my backend skills with Node.js and .NET.
+### 1. Personal Portfolio
+A personal website introducing my professional profile, experience and technical skills.
 
-🛠️ Technologies
+**[View Live Portfolio](https://wilfredoruiz5.github.io/developer-portfolio/)**
 
-Frontend: Angular, TypeScript, JavaScript, HTML, CSS
+### 2. Angular Interactive Dashboard
+An interactive Angular application demonstrating reactive state management with Signals, component structure and modern Angular features.
 
-Backend: Node.js, C#, .NET
+**[View Live Demo](https://wilfredoruiz5.github.io/developer-portfolio/angular-demo/)**
 
-State Management: NgRx, Angular Signals
+**Technologies:** Angular, TypeScript, Angular Signals, HTML, CSS.
 
-Tools: Git, GitHub, SQL
+## Tech Stack
 
-🚀 Currently
+- **Frontend:** Angular, TypeScript, JavaScript, HTML, CSS
+- **State Management:** NgRx, Angular Signals
+- **Backend:** Node.js, C#, .NET
+- **Database:** SQL, PL/SQL
+- **Tools:** Git, GitHub, Vitest
 
-Improving my full-stack development skills.
+## Getting Started
 
-Building personal projects to strengthen my technical knowledge.
+To run the Angular demo locally:
 
-Exploring software architecture and best practices.
+```bash
+git clone https://github.com/wilfredoruiz5/developer-portfolio.git
+cd developer-portfolio/angular-demo
+npm install
+npx ng serve
+```
 
-📫 About me
+Open `http://localhost:4200/` in your browser.
 
-I'm always interested in learning, solving problems and building useful software.
+## Deployment
 
-### 🌐 Live Demo
+Both projects are deployed using **GitHub Pages** and automated with **GitHub Actions**.
 
-Check out my first deployed web project:
+---
 
-[Hello - Live Demo](https://wilfredoruiz5.github.io/developer-portfolio/dashboard/index.html)
+*Always learning, building and improving as a Software Developer.*
